@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body style="margin: 0; background-color: #FFD3C2;">
-    <nav style=" position: fixed; top: 0px; width: 100%; padding: 1.5rem; background-color: #F27855; display: flex; justify-content: space-between;">
-        <b class="title">코끝어디 &nbsp; 코<span class="title-sm">로나</span> 끝<span class="title-sm">나면</span> 어디<span class="title-sm">로갈까</span> ?</b>
-        <b class="title">이용문의</b>
+    <nav class="navmain" style=" position: fixed; top: 0px; width: 100%; background-color: #F27855;">
+        <div class="navcontainer">
+        <a href="./index.html" style="text-decoration: none;"><b class="title"> 코<span class="title-sm">로나</span> 끝<span class="title-sm">나면</span> 어디<span class="title-sm">로갈까</span> ?</b></a>
+        <b class="title-sm">이용문의</b>
+    </div>
     </nav>
     <div class="bodywrap">
-    <button class="mainbtn">Spring<br><br>봄</button>
-    <button class="mainbtn">Summer<br><br>여름</button>
-    <button class="mainbtn">Autumn<br><br>가을</button>
-    <button class="mainbtn">Winter<br><br>겨울</button>
+    <button onclick="location.href='./spring'"  class="mainbtn">Spring<br><br>봄</button>
+    <button onclick="location.href='./summer'"  class="mainbtn">Summer<br><br>여름</button>
+    <button onclick="location.href='./autumn'"  class="mainbtn">Autumn<br><br>가을</button>
+    <button onclick="location.href='./witer'"  class="mainbtn">Winter<br><br>겨울</button>
 </div>
 </body>
 </html>
