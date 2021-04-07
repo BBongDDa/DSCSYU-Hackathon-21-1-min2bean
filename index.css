@@ -2,7 +2,7 @@
 
 .bodywrap{
     width: 90%;
-    height: 80vh;
+    height: 55vh;
     margin: 0 auto;
     display: flex;
     align-items: center !important;
@@ -40,6 +40,7 @@
 }
 .navmain{
     padding: 1%;
+    z-index: 999;
 }
 .navcontainer{
     display: flex;
@@ -50,10 +51,17 @@
 }
 
 .mainbanner{
-    height: 20vh;
+    height: 45vh;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(./dummybannerv1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+;
 }
 @media (max-width : 1024px) {
 
@@ -68,7 +76,7 @@
     }
     .mainbtn{
         min-height: 25vh;
-        min-width: 150px;
+        min-width: 40%;
         margin: 0 auto;
         height: auto;
         flex: 1;
@@ -78,7 +86,7 @@
     }
     .mainbtn2{
         min-height: 25vh;
-        min-width: 150px;
+        min-width: 40%;
         margin: 0 auto;
         height: auto;
         flex: 1;
@@ -100,6 +108,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-image: url(./dummybannerv1.png);
+        background-size: cover;
     }
 }
 
@@ -109,5 +119,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-image: url(./dummybannerv1.png);
+        background-size: cover;
     }
 }
