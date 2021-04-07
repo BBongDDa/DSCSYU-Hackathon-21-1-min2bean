@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #ffd3c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav {
+    display: block;
+}
+
+.navmain{
+    padding: 1%;
+}
+
+.navcontainer{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.title-sm{
+    font-size: 1.1rem;
+    color: white;
+}
+
+.name {
+    font-size: ;
+}
+
+.intro {
+    width: 150vh;
+    height: 75vh;
+    background-color: #f27855;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+
+.JM {
+    width: 60vh;
+    height: 25vh;
+    border: solid 1px black;
+}
+
+.min {
+    flex: 1;
+    width: 60vh;
+    height: 25vh;
+    border: solid 1px black;
+}
+
+.bin {
+    flex: 1;
+    width: 60vh;
+    height: 25vh;
+    border: solid 1px black;
+}
+
+
+
