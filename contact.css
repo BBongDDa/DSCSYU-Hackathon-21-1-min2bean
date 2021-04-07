@@ -1,0 +1,246 @@
+body {
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    background-color: #ffd3c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav {
+    display: block;
+}
+
+.navmain{
+    padding: 1%;
+}
+
+.navcontainer{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    font-size: 1.9rem;
+    font-family: 'Poor Story', cursive;
+}
+.title-sm{
+    font-size: 0.9rem;
+    color: white;
+    font-family: 'Poor Story', cursive;
+}
+
+.title-m{
+    font-size: 1.2rem;
+}
+.name {
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #f27855;
+    margin-top: 15rem;
+}
+.beanimg{
+    width: 3.5rem;
+    transform: rotate(320deg);
+    margin-left: 6px;
+}
+.intro {
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f27855;
+    align-items: center !important;
+    align-content: space-around;
+    row-gap: 4rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+    border-radius: 3rem;
+    z-index: 999;
+}
+
+.JM {
+    width: 45%;
+    height: 25vh;
+    border: solid 1px black;
+    background-color: #f27855;
+}
+
+.min {
+    width: 45%;
+    height: 25vh;
+    border: solid 1px black;
+    background-color: #f27855;
+}
+
+.bin {
+    min-width: 45%;
+    height: 25vh;
+    border: solid 1px black;
+    background-color: #f27855;
+}
+.internwrap{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    z-index: 999;
+}
+
+.buttonwrap{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 95%;
+    margin: 0 auto;
+    column-gap: 0.9rem;
+    margin-bottom: -0.5rem;
+    z-index: 1;
+}
+.qnabutton{
+width: 10%;
+height: 5vh;
+border-radius: 10px;
+border-bottom: none;
+background-color: #f27855;
+border: none;
+outline: none;
+
+}
+.qnabutton:hover{
+    width: 10%;
+    height: 6vh;
+    border-top: 0.5rem solid lightgoldenrodyellow;
+}
+.qnabutton-active{
+    width: 10%;
+    height: 6vh;
+    border-radius: 10px;
+    border-bottom: none;
+    background-color: #f27855;
+    border-top: 0.5rem solid lightgoldenrodyellow;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    outline: none;
+    }
+.contetnswrap{
+    width: 70%;
+    height: auto;
+    
+}
+
+@media (max-width : 1024px) {
+    .intro{
+        width: 90%;
+        row-gap: 2rem;
+        padding: 5% !important;
+        margin: 0 auto !important;
+    }
+
+    .contetnswrap{
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .min {
+        width: 47%;
+        height: 25vh;
+        border: solid 1px black;
+        background-color: #f27855;
+        margin: 1%;
+    }
+    
+    .bin {
+        min-width: 47%;
+        height: 25vh;
+        border: solid 1px black;
+        background-color: #f27855;
+        margin: 1%;
+    }
+    .internwrap{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+    }
+    .buttonwrap{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 84%;
+        margin: 0 auto;
+        column-gap: 0.9rem;
+        margin-bottom: -0.5rem;
+        z-index: 1;
+    }
+    .qnabutton{
+    width: 27%;
+    height: 5.5vh;
+    border-radius: 10px;
+    border-bottom: none;
+    background-color: #f27855;
+    border: none;
+    outline: none;
+    
+    }
+    .beanimg{
+        width: 3.2rem;
+        transform: rotate(320deg);
+        margin-left: 3px;
+    }
+    .qnabutton:hover{
+        width: 26%;
+        height: 7vh;
+        border-top: 0.5rem solid lightgoldenrodyellow;
+    }
+    .qnabutton-active{
+        width: 26%;
+        height: 7vh;
+        border-radius: 10px;
+        border-bottom: none;
+        background-color: #f27855;
+        border-top: 0.5rem solid lightgoldenrodyellow;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        outline: none;
+        }
+        .name{
+            font-size: 3rem;
+        }
+}
+
+@media (max-width : 340px){
+    .name{
+        font-size: 2rem;
+    }
+    .buttonwrap{
+        width: 80%;
+    }
+    .qnabutton{
+        font-size: 0.7rem;
+        width: 32%;
+    }
+    .qnabutton:hover{
+        width: 32%;
+        height: 7vh;
+        border-top: 0.5rem solid lightgoldenrodyellow;
+    }
+    .qnabutton-active{
+        width: 32%;
+        font-size: 0.7rem;
+    }
+    .beanimg{
+        width: 1.2em;
+        transform: rotate(320deg);
+        margin-left: 3px;
+    }
+}

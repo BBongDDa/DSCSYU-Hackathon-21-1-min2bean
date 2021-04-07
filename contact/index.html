@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../qna.css">
+    <link rel="stylesheet" href="../contact.css">
+    <link rel="stylesheet" href="../index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poor+Story&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <nav class="navmain" style=" position: fixed; top: 0px; width: 100%; background-color: #F27855;">
         <div class="navcontainer">
             <a href="../index.html" style="text-decoration: none;"><b class="title"> 코<span class="title-sm">로나</span> 끝<span class="title-sm">나면</span> 어디<span class="title-sm">로갈까</span> ?</b></a>
+            <b class="title-m"> <a href="./contact.html" style="text-decoration: none; color: white;"> 이용문의 </a></b>
         </div>
     </nav>
-    <p class="name" style="font-size: 2rem; margin-bottom: 5px">Min2Bean</p>
+    <section class="contetnswrap">
+        <p class="name">Min2Bean<img class="beanimg" src="../jelly-beans.png"> </p>  
+        <div class="buttonwrap">
+            <button onclick="location.href='./index.html'" class="qnabutton-active"> About Us </button>
+            <button onclick="location.href='./contact.html'"  class="qnabutton"> Contact Us </button>
+        </div>
     <div class="intro">
+        
         <div class="JM">
             CTO
         </div>
+        <div class="internwrap">
         <div class="min">
             INTERN
         </div>
         <div class="bin">
             INTERN
         </div>
+     </div>
     </div>
+</section>
 </body>
 </html>
