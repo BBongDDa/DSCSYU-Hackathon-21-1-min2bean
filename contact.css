@@ -2,7 +2,11 @@ body {
     height: 100vh;
     margin: 0;
     width: 100%;
+<<<<<<< HEAD
+    background-color: white;
+=======
     background-color: #fff;
+>>>>>>> a6a0a8d63a63bca22c936ebdd61ba7188f01c405
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
