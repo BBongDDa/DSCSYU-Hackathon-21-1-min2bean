@@ -75,6 +75,14 @@ html{
     margin: 0 auto;
 ;
 }
+
+#nav { font-family:'arial'; height: auto; }
+#nav ul{ width:10%; height: auto; margin:0; padding:0; }
+#nav ul.menu li{ position:relative; float:left; width:10%; list-style-type:none; font-size:1rem;}
+#nav ul.menu li a{ display:block; width:10%; height:auto; line-height:1rem; text-indent:1rem; color:#000; font-weight:bold; text-decoration:none; }
+#nav ul.menu li a:hover{ background:#eee; }
+#nav ul.menu li .sub a{ position:relative; float:left; display:block; width:10%; z-index:999; background:#ccc; }
+#nav ul.menu li .sub a:hover{ background:#444; color:#fff; }
 @media (max-width : 1024px) {
 
     .bodywrap{

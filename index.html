@@ -7,11 +7,32 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poor+Story&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#nav ul.sub").hide();
+			$("#nav ul.menu li").click(function(){
+				$("ul",this).slideToggle("fast");
+			});
+		});
+	</script>
+
+</head>
 <body style="margin: 0; background-color: #fff;">
-    <nav class="navmain" style=" position: fixed; top: 0px; width: 100%; background-color: #5EB83C;">
-        <div class="navcontainer">
+    <nav class="navmain"  style=" position: fixed; top: 0px; width: 100%; background-color: #5EB83C;">
+        <div class="navcontainer" id="nav">
         <a href="./index.html" style="text-decoration: none;"><b class="title"> 코<span class="title-sm">로나</span> 끝<span class="title-sm">나면</span> 어디<span class="title-sm">로갈까</span> ?</b></a>
-        <b class="title-m"> <a href="./contact" style="text-decoration: none; color: white;"> 이용문의 </a></b>
+        <ul class="menu">
+			<li><a href="#">MENU</a>
+				<ul class="sub">
+                    <li><a href="#">봄</a></li>
+                    <li><a href="#">여름</a></li>
+					<li><a href="#">가을</a></li>
+                    <li><a href="#">겨울</a></li>
+					<li><a href="./contact">이용문의</a></li>
+				</ul>
+            </li>
+        </ul>
     </div>
     </nav>
     <section class="mainbanner">
