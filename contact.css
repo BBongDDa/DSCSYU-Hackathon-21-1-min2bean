@@ -2,7 +2,11 @@ body {
     height: 100vh;
     margin: 0;
     width: 100%;
+<<<<<<< HEAD
     background-color: white;
+=======
+    background-color: #fff;
+>>>>>>> a6a0a8d63a63bca22c936ebdd61ba7188f01c405
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -44,7 +48,7 @@ nav {
     font-size: 4rem;
     text-align: center;
     color: white;
-    text-shadow: 1px 1px 1px #f27855;
+    text-shadow: 1px 1px 2px #f27855;
     margin-top: 15rem;
 }
 .beanimg{
@@ -58,7 +62,7 @@ nav {
     padding: 2%;
     display: flex;
     flex-direction: column;
-    background-color: #f27855;
+    background-color: #B37440;
     align-items: center !important;
     align-content: space-around;
     row-gap: 4rem;
@@ -72,21 +76,21 @@ nav {
     width: 45%;
     height: 25vh;
     border: solid 1px black;
-    background-color: #f27855;
+    background-color: #B37440;
 }
 
 .min {
     width: 45%;
     height: 25vh;
     border: solid 1px black;
-    background-color: #f27855;
+    background-color: #B37440;
 }
 
 .bin {
     min-width: 45%;
     height: 25vh;
     border: solid 1px black;
-    background-color: #f27855;
+    background-color: #B37440;
 }
 .internwrap{
     display: flex;
@@ -110,7 +114,7 @@ width: 10%;
 height: 5vh;
 border-radius: 10px;
 border-bottom: none;
-background-color: #f27855;
+background-color: #B37440;
 border: none;
 outline: none;
 
@@ -118,15 +122,15 @@ outline: none;
 .qnabutton:hover{
     width: 10%;
     height: 6vh;
-    border-top: 0.5rem solid lightgoldenrodyellow;
+    border-top: 0.5rem solid #5EB83C;
 }
 .qnabutton-active{
     width: 10%;
     height: 6vh;
     border-radius: 10px;
     border-bottom: none;
-    background-color: #f27855;
-    border-top: 0.5rem solid lightgoldenrodyellow;
+    background-color: #B37440;
+    border-top: 0.5rem solid #5EB83C;
     border-left: none;
     border-right: none;
     border-bottom: none;
@@ -155,7 +159,7 @@ outline: none;
         width: 47%;
         height: 25vh;
         border: solid 1px black;
-        background-color: #f27855;
+        background-color: #B37440;
         margin: 1%;
     }
     
@@ -163,7 +167,7 @@ outline: none;
         min-width: 47%;
         height: 25vh;
         border: solid 1px black;
-        background-color: #f27855;
+        background-color: #B37440;
         margin: 1%;
     }
     .internwrap{
@@ -186,7 +190,7 @@ outline: none;
     height: 5.5vh;
     border-radius: 10px;
     border-bottom: none;
-    background-color: #f27855;
+    background-color: #B37440;
     border: none;
     outline: none;
     
@@ -199,15 +203,15 @@ outline: none;
     .qnabutton:hover{
         width: 26%;
         height: 7vh;
-        border-top: 0.5rem solid lightgoldenrodyellow;
+        border-top: 0.5rem solid #5EB83C;
     }
     .qnabutton-active{
         width: 26%;
         height: 7vh;
         border-radius: 10px;
         border-bottom: none;
-        background-color: #f27855;
-        border-top: 0.5rem solid lightgoldenrodyellow;
+        background-color: #B37440;
+        border-top: 0.5rem solid #5EB83C;
         border-left: none;
         border-right: none;
         border-bottom: none;
@@ -232,7 +236,7 @@ outline: none;
     .qnabutton:hover{
         width: 32%;
         height: 7vh;
-        border-top: 0.5rem solid lightgoldenrodyellow;
+        border-top: 0.5rem solid #5EB83C;
     }
     .qnabutton-active{
         width: 32%;
