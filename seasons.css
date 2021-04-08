@@ -9,17 +9,21 @@ html{
 }
 .contentswrap{
     display: flex;
-    margin-top: 5vh;
-    width: 70%;
-    margin: 0 auto;
+    width: 75%;
+    margin: 0 auto !important;
+    padding: 3%;
+    column-gap: 8rem;
 }
 .imgsec{
 flex: 1;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 1%;
-width: 80%;
+width: 100%;
+border-radius: 10px;
+}
+img.imgsec{
+    box-shadow: 1px 1px 10px gray;
 }
 .title{
     color: white;
@@ -39,9 +43,10 @@ width: 80%;
 .textsec{
 flex: 1;
 display: flex;
-justify-content: center;
+justify-content: space-evenly;
 align-items: center;
-margin: 1%;
+flex-direction: column;
+line-height: 3rem;
 }
 .filter__lists{
     list-style: none;
@@ -55,20 +60,187 @@ margin: 1%;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #5EB83C;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 a:hover{
-    color: gray;
+    color: #5EB83C;
+    text-shadow: 1px 1px 1px #B37440 ;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: underline;
 }
 .fitertitle{
     font-size: 1.7rem;
-    color: navy;
+    color: #B37440;
     font-weight: 800;
     margin: none;
 }
+.iconsize{
+    font-size: 2.9rem;
+    color: #B37440;
+}
+.iconsize :hover{
+    font-size: 2.9rem;
+    color: #5EB83C;
+}
+.icon-sec{
+    display: flex;
+    column-gap: 4rem;
+    margin-right: 50%;
+}
+.contents-title{
+    font-size: 2rem;
+    width: 95%;
+}
+.contents-sm{
+    font-size: 1.5rem;
+}
+.contents-ssm{
+    font-size: 1rem;
+}
+.sidenavwrap{
+    position: fixed;
+    bottom: 15vh;
+    right: 0px;
+}
+.sidenav{
+    display: flex;
+    flex-direction: column;
+}
+.sidenavbtn{
+    background-color: #B37440;
+    width:4.5rem;
+    height: 6vh;
+    color: white;
+    padding: 2%;
+    border: none;
+
+}
+.sidenavbtn2{
+    background-color: #5EB83C;
+    width:4.5rem;
+    height: 6vh;
+    color: white;
+    padding: 2%;
+    border: none;
+
+}
 
 @media (max-width : 800px){
+    .seaseonsbanner{
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .fitertitle{
        display: none;
+    }
+    .contentswrap{
+        display: flex;
+        margin-top: 5vh;
+        width: 90%;
+        margin: 0 auto;
+        padding: 3%;
+        column-gap: 0.4rem;
+        flex-direction: column;
+        row-gap: 1.2rem;
+        height: auto;
+    }
+    .textsec{
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        line-height: 2rem;
+        }
+
+    .iconsize{
+        font-size: 2rem;
+    }
+    .icon-sec{
+        display: flex;
+        column-gap: 3rem;
+        margin-right: 0%;
+        margin: 5%;
+    }
+    .contents-title{
+        font-size: 1.5rem;
+        word-break: keep-all;
+        width: 90%;
+    }
+    .contents-sm{
+        font-size: 1rem;
+    }
+    .contents-ssm{
+        font-size: 0.8rem;
+    }
+    a{
+        text-decoration: none;
+        color: #5EB83C;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    a:hover{
+        color: #5EB83C;
+        text-shadow: 1px 1px 1px #B37440 ;
+        font-weight: bold;
+        font-size: 1rem;
+        text-decoration: underline;
+    }
+    .sidenavwrap{
+        position: fixed;
+        bottom: 6vh;
+        right: 0px;
+    }
+    .sidenav{
+        display: flex;
+        flex-direction: column;
+    }
+    .sidenavbtn{
+        background-color: #B37440;
+        width:3.8rem;
+        height: 5.2vh;
+        color: white;
+        padding: 2%;
+        border: none;
+    
+    }
+    .sidenavbtn2{
+        background-color: #5EB83C;
+        width:3.8rem;
+        height: 5.2vh;
+        color: white;
+        padding: 2%;
+        border: none;
+    
+    }
+}
+@media (max-width : 340px){
+    a{
+        text-decoration: none;
+        color: #5EB83C;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    a:hover{
+        color: #5EB83C;
+        text-shadow: 1px 1px 1px #B37440 ;
+        font-weight: bold;
+        font-size: 0.8rem;
+        text-decoration: underline;
+    }
+    .title{
+        color: white;
+        font-size: 1.2rem;
+        font-family: 'Poor Story', cursive;
+    }
+    .title-sm{
+        font-size: 0.6rem;
+        color: white;
+        font-family: 'Poor Story', cursive;
     }
 }

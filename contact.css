@@ -243,4 +243,14 @@ outline: none;
         transform: rotate(320deg);
         margin-left: 3px;
     }
+    .title{
+        color: white;
+        font-size: 1.2rem;
+        font-family: 'Poor Story', cursive;
+    }
+    .title-sm{
+        font-size: 0.6rem;
+        color: white;
+        font-family: 'Poor Story', cursive;
+    }
 }
