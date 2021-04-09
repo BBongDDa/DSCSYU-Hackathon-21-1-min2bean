@@ -27,20 +27,42 @@
         </div>
     <div class="intro">
         
-        <div class="JM">
-<<<<<<< HEAD
-            이거 컨택트 페이지야!!!!!ㅎ
-=======
-            이정민 <br> Min2Bean의 리더 <br> https://github.com/BBongDDa
->>>>>>> e34de4f9f9490beb48f2c294f8bf23ce78a07db3
-        </div>
-        <div class="internwrap">
-        <div class="min">
-            김원빈 <br> 인턴 <br> https://github.com/0619-weonbin
-        </div>
-        <div class="bin">
-            최민식 <br> 인턴 <br> https://github.com/Kyriepy
-        </div>
+               <section id="contact">
+            <p style="font-style: Source Sans Pro; font-weight: 500; font-size: 1.5rem; text-align: center;">문의사항을 작성하세요 &#x1F60A;</p>
+            <br>
+            <form
+            action="https://formspree.io/f/mnqlqobl"
+            method="POST" style="display: flex; justify-content: space-around; flex-direction: column; row-gap: 0.1rem;"
+            >
+            <label >
+              이름 :<br>
+              <input style="margin: 1%; width: 70%; border-radius: 10px; border: 2px solid #5EB83C;" type="text" name="name">
+            </label>
+            <br>
+            <label>
+              Email:<br>
+              <input style="margin: 1%; width: 70%; border-radius: 10px; border: 2px solid #5EB83C;" type="email" name="_replyto">
+            </label>
+            <br>
+            <br>
+            <span style="font-size: small;">문의 유형 :</span>
+        <input id="inputtag2" style="margin: 1%; width: 65%; border-radius: 10px; border: 2px solid #5EB83C;" type="text" list="major2" type="text" name="서비스">
+       <datalist id="major2">
+       <option value="이용 문의">
+       <option value="관광지 등록요청">
+       <option value="오류 신고">
+       </datalist>
+            <br>
+            <br>
+            <label>
+              전달사항:
+              <textarea style="margin: 1%; width: 100%; height: 100px; resize: none; border-radius: 10px; border: 2px solid #5EB83C;" name="message"></textarea>
+            </label>
+            <br>
+            <br>
+            <input class="btn btn-secondary" onclick="alert('확인을 누르면 전송됩니다.')" style="border: 2px solid #5EB83C; background-color: white; border-radius: 10px;" type="submit" value="Send">
+            </form>
+            </section>
      </div>
     </div>
 </section>
